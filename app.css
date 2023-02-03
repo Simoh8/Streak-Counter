@@ -4,6 +4,9 @@
     
 } */
 .UI1{
+    display: block;
+}
+.UI1content{
     margin-top: 6vh;
     background-color: #ff7151;
     display: flex;
@@ -14,7 +17,7 @@
     height: 60vh;
     display: flex;
     flex-direction: column;
-    display: block;
+    
     /* padding-top: 20px; */
 }
 .streak_enter{
@@ -104,7 +107,7 @@
     align-items: center;
     text-align: center;
    margin-top: 10px;
-   display: none;
+   /* display: none; */
 }
 .UI2bottom{
     padding: 10px;

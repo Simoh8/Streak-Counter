@@ -11,6 +11,7 @@
     <h1 class="streak_enter">Streak Counter</h1>
     <div class="main">
         <div class="UI1">
+             <div class="UI1content">
             <div class="UI1top">
                 <div id="plus">
                     <ion-icon name="add-circle-outline"></ion-icon>
@@ -29,6 +30,8 @@
                 You don't have any task!!!
             </div>
         </div>
+        </div>
+       
         
         <div class="UI2">
             <div class="UI2content">
@@ -39,6 +42,9 @@
                     <ion-icon name="list-outline"></ion-icon>
                 </div>
                 <div class="form">
+                    <div id="pleaseAdd">
+                        
+                    </div>
                     <div id="taskHeader">
                         <p>Please add A task</p>
                     </div>
@@ -59,18 +65,19 @@
                     </div>
                     
                     <div id="addTaskBtn">
-                        <button>Add Task</button>
+                        <button id="TaskBtn">Add Task</button>
                     </div>
                 </div>
             </div>
-            
-        </div>
-        <div class="UI2bottom">
+            <div class="UI2bottom">
             <div id="noTask">
                 You don't have any task!!!
             </div>
         </div>
     </div>
+            
+        </div>
+        
     
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
