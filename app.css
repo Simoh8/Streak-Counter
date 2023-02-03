@@ -1,11 +1,117 @@
-.main{
+/* .main{
+    
+    height: 50vh;
+    
+} */
+.UI1{
+    margin-top: 6vh;
     background-color: #ff7151;
-    height: 100vh;
     display: flex;
     padding-left: 30px;
     /* justify-content: center; */
     align-items: center;
     gap: 20px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    display: block;
+    /* padding-top: 20px; */
+}
+.streak_enter{
+    /* align-items: center; */
+    margin-top: 3vh;
+    text-align: center;
+    justify-content: center;
+}
+.UI1top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UI2{
+    display: none;
+}
+.UI2content{
+    
+    background-color: #ff7151;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    margin-top: 6vh;
+    /* flex-direction: ; */
+}
+#displayAddTask{
+    font-size: 4em;
+    color: #ffffff;
+    /* padding-right: 60px;    */
+}
+#cancelBtn{
+    font-size: 4em;
+    color: #ffffff;
+    padding-left: 190px;
+}
+.form{
+    display: flex;
+    flex-direction: column; 
+    width: 40vh;
+    background-color: #ffffff;
+    padding: 2px;
+    margin-bottom: -1%;
+    height: 98%;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-around;
+    font-size: 30px; 
+    color: #ff512a;
+}
+.taskName input, .taskImage input, .startDate input{
+    height: 30px;
+}
+
+.taskName, .taskImage, .startDate{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#taskHeader{
+    /* margin-top: 5px; */
+    background-color: #ff7151;
+    color: #ffffff;
+    /* margin-top: 2px; */
+}
+
+/* .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* height: auto; 
+} */
+.input input {
+    width: 98%;
+}
+#addTaskBtn button{
+    background-color: #ff7151;
+    color: #ffffff;
+    width: 100%;
+    font-size: 30px;
+    /* padding-top: 600px; */
+}
+.UI1bottom{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+   margin-top: 10px;
+   display: none;
+}
+.UI2bottom{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    /* display: none; */
 }
 
 *{
@@ -17,15 +123,18 @@
 }
  
 #plus ion-icon[name="add-circle-outline"] {
-    font-size: 8em;
+    font-size: 4em;
   }
 
 #header{
     color:#ffffff;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
+    margin-left: 40px;
 }
 #image img{
-    height: 500px;
+    height: 50vh;
+    padding-top: 20px;
 }
+
   
