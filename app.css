@@ -46,7 +46,7 @@
     /* flex-direction: ; */
 }
 #displayAddTask{
-    font-size: 4em;
+    font-size: 1.5erm;
     color: #ffffff;
     /* padding-right: 60px;    */
 }
@@ -66,14 +66,14 @@
     justify-content: center;
     /* align-items: center; */
     justify-content: space-around;
-    font-size: 30px; 
+    font-size: 1.5rem; 
     color: #ff512a;
 }
 .taskName input, .taskImage input, .startDate input{
     height: 30px;
 }
 
-.taskName, .taskImage, .startDate{
+.taskname, .taskimage, .startdate{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -126,7 +126,7 @@
 }
  
 #plus ion-icon[name="add-circle-outline"] {
-    font-size: 4em;
+    font-size: 5rem;
   }
 
 #header{
